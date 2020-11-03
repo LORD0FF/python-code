@@ -26,7 +26,7 @@ snake_size = 5
 
 
 tk = Tk()
-tk.title("Игра Змейка на Python")
+tk.title("Игра Змейка by Andrey|По видео гайду от Гоша Дударь.")
 tk.resizable(0,0)
 tk.wm_attributes("-topmost",1)
 canvas = Canvas(tk, width=game_width, height=game_height, bd=0, highlightthickness=0)
